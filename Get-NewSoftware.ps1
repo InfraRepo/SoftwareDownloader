@@ -5,6 +5,9 @@
     PS C:\> .\Get-NewSoftware.ps1
 .EXAMPLE
     PS C:\> .\Get-NewSoftware.ps1 -verbose
+.EXAMPLE
+    PS C:\> .\Get-NewSoftware.ps1 -PackageFilter wireshark
+	Will only process entries matching *wireshark* filter
 .INPUTS
     None.
 .OUTPUTS
